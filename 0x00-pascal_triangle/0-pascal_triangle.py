@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+'''
+Pascals triangle
+'''
+
+
 def pascal_triangle(n):
     '''returns a list of integers in pascals triangle form'''
     arr = []
