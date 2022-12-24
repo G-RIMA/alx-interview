@@ -16,5 +16,5 @@ def pascal_triangle(n):
             current = arr[i - 1]
             tmp.append(arr[i - 1][j] + arr[i - 1][j + 1])
             tmp.append(1)
-        arr.append(tmp)
+            arr.append(tmp)
     return arr
