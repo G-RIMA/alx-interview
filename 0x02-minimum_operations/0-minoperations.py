@@ -2,7 +2,7 @@
 
 
 """
-minimal operations interview
+Calculates the minimum operations
 """
 
 
