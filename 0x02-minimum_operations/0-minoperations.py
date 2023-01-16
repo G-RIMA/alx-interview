@@ -7,12 +7,11 @@ Calculates the minimum operations
 
 
 def minOperations(n):
-
-    dp = [n > 1 for i in range(n + 1)]
-    dp[0] = 0
-    for i in range(1, n + 1):
-        dp[i] = i
-        for j in range(2, i):
-            if i % j == 0:
-                dp[i] = min(dp[i], dp[i//j] + j)
-    return dp[n]
+    answer = 0
+    x = 2
+    while n > 1:
+        while n % x == 0:
+            answer += x
+            n /= x
+        x += 1
+    return answer
