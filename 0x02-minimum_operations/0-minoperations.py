@@ -1,10 +1,12 @@
 #!/usr/bin/python3
+
+
 """
 minimal operations interview
 """
 
+
 def minOperations(n: int) -> int:
-    """ Minimum Operations """
 
     dp = [n > 1 for i in range(n + 1)]
     dp[0] = 0
