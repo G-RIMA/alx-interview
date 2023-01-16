@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-'''minimal operations interview '''
-
+"""
+minimal operations interview
+"""
 
 def minOperations(n: int) -> int:
     """ Minimum Operations """
