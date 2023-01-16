@@ -6,7 +6,7 @@ Calculates the minimum operations
 """
 
 
-def minOperations(n: int) -> int:
+def minOperations(n):
 
     dp = [n > 1 for i in range(n + 1)]
     dp[0] = 0
