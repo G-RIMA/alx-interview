@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+'''minimal operations interview '''
 import sys
 
 
